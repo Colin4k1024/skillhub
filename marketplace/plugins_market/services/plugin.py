@@ -1024,13 +1024,15 @@ def publish(
 
     # Validate skill count for new skill assets (system admin is exempt).
     if not existing_asset and is_skill_like_plugin_type(rt) and not is_system_admin_publisher:
-        skill_count = asset_repo.count_skills_by_publisher(user_id)
-        if skill_count >= 50:
-            raise PublishError(
-                code=409,
-                error="skill_limit_exceeded",
-                message=f"您已发布 {skill_count} 个 Skill，达到发布上限（最多 50 个）",
-            )
+        max_skills = settings.max_skills_per_user
+        if max_skills > 0:
+            skill_count = asset_repo.count_skills_by_publisher(user_id)
+            if skill_count >= max_skills:
+                raise PublishError(
+                    code=409,
+                    error="skill_limit_exceeded",
+                    message=f"您已发布 {skill_count} 个 Skill，达到发布上限（最多 {max_skills} 个）",
+                )
 
     try:
         if not existing_asset:

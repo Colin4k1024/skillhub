@@ -653,6 +653,12 @@ class Settings(BaseSettings):
         ge=0,
         validation_alias=AliasChoices("MARKET_MAX_MEMBERS_PER_GROUP", "MAX_MEMBERS_PER_GROUP"),
     )
+    # 每用户最多发布的 Skill 类资产数（Skill / SwarmSkill；0 = 不限制；系统管理员始终不受限）
+    max_skills_per_user: int = Field(
+        default=200,
+        ge=0,
+        validation_alias=AliasChoices("MARKET_MAX_SKILLS_PER_USER", "MAX_SKILLS_PER_USER"),
+    )
     # Playground 多实例开关：false（默认）= 单实例，会话跟踪状态存进程内存，行为与
     # 引入本开关前完全一致；true = 状态外置 Redis（复用 REDIS_HOST 等配置，必须已配置，
     # 否则启动即报错），marketplace 可多副本部署，且支持 skill-runner 多实例的粘性路由。
