@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "openjiuwen-skillsdispatch"
 version = "0.1.0"
-description = "openJiuwen skills dispatch SDK for index build and retrieval."
+description = "沧溟 skills dispatch SDK for index build and retrieval."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
