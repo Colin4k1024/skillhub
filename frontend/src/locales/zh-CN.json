@@ -34,7 +34,7 @@
   },
   "plugins": {
     "title": "插件管理",
-    "marketTitle": "openJiuwen Agentic Hub",
+    "marketTitle": "沧溟",
     "marketSubtitleLead": "维度升级 · 多智协同，",
     "marketSubtitleTail": "{{typeLabel}} 驱动 Coordination Engineering 新变革",
     "marketSubtitleCountSuffix": " 个",
@@ -398,7 +398,7 @@
     "publishEntry": "发布插件",
     "publishPlugin": "发布插件",
     "publishSkill": "发布 Skill",
-    "brand": "openJiuwen",
+    "brand": "沧溟",
     "sidebar": {
       "backToHome": "返回首页",
       "mySkills": "我的上传",
@@ -701,7 +701,7 @@
     }
   },
   "appHeader": {
-    "brand": "openJiuwen Agentic Hub",
+    "brand": "沧溟",
     "publish": "发布",
     "profile": "个人中心",
     "groups": "组群管理",
@@ -871,6 +871,6 @@
     "columnDocs": "文档",
     "columnCommunity": "社区",
     "columnMore": "更多",
-    "copyright": "openJiuwen Agentic Hub · Apache License 2.0 · {{year}}"
+    "copyright": "沧溟 · Apache License 2.0 · {{year}}"
   }
 }

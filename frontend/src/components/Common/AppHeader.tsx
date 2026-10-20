@@ -77,7 +77,7 @@ export function AppHeader({
             aria-label={t('appHeader.openJiuwen')}
             title={t('appHeader.openJiuwen')}
           >
-            <span className="hidden sm:inline">openJiuwen</span>
+            <span className="hidden sm:inline">沧溟</span>
             <ExternalLink className="h-3.5 w-3.5 shrink-0 opacity-70" aria-hidden />
           </a>
           <span className="hidden h-5 w-px bg-slate-200 md:inline-block" aria-hidden />

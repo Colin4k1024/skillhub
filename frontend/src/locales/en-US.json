@@ -34,7 +34,7 @@
   },
   "plugins": {
     "title": "Plugin Management",
-    "marketTitle": "openJiuwen Agentic Hub",
+    "marketTitle": "沧溟",
     "marketSubtitleLead": "Dimension Upgrade · Multi-Intelligence Collaboration,",
     "marketSubtitleTail": "{{typeLabel}} Driving Coordination Engineering Revolution",
     "marketSubtitleCountSuffix": "",
@@ -398,7 +398,7 @@
     "publishEntry": "Publish plugin",
     "publishPlugin": "Publish plugin",
     "publishSkill": "Publish skill",
-    "brand": "openJiuwen",
+    "brand": "沧溟",
     "sidebar": {
       "backToHome": "Back to home",
       "mySkills": "My uploads",
@@ -702,7 +702,7 @@
     }
   },
   "appHeader": {
-    "brand": "openJiuwen Agentic Hub",
+    "brand": "沧溟",
     "publish": "Publish",
     "profile": "Profile",
     "groups": "Groups",
@@ -872,6 +872,6 @@
     "columnDocs": "Docs",
     "columnCommunity": "Community",
     "columnMore": "More",
-    "copyright": "openJiuwen Agentic Hub · Apache License 2.0 · {{year}}"
+    "copyright": "沧溟 · Apache License 2.0 · {{year}}"
   }
 }
