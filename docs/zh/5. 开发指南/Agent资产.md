@@ -1,6 +1,6 @@
 # Agent资产
 
-openJiuwen Agentic Hub 的 Agent 资产一共六类：Skill、SwarmSkill、插件、连接器、专家、专家团。发布、列表、详情和下载走同一套 API，用 `plugin_type` 区分。
+沧溟 的 Agent 资产一共六类：Skill、SwarmSkill、插件、连接器、专家、专家团。发布、列表、详情和下载走同一套 API，用 `plugin_type` 区分。
 
 ## 类型对照
 
@@ -226,4 +226,4 @@ MCP、命令行或仅 Skill 的集成包。对象存储前缀 `agent-mcps/`。�
 
 - 发布步骤：[Agent资产发布](../4.%20用户指南/Agent资产发布.md)
 - [Agent 资产审核机制](./Agent资产审核机制.md)
-- [接口参考](../7.%20API参考/openJiuwen-Agentic-Hub-接口参考.md)
+- [接口参考](../7.%20API参考/沧溟-接口参考.md)

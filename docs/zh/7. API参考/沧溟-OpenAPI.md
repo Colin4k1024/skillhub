@@ -1,6 +1,6 @@
-# openJiuwen Agentic Hub API（OpenAPI）
+# 沧溟 API（OpenAPI）
 
-> 端点说明、curl 示例和字段表见 [接口参考](./openJiuwen-Agentic-Hub-接口参考.md)。本文只保留错误响应约定和文末 OpenAPI 3.1 YAML。
+> 端点说明、curl 示例和字段表见 [接口参考](./沧溟-接口参考.md)。本文只保留错误响应约定和文末 OpenAPI 3.1 YAML。
 
 ## 全局约束
 
@@ -141,9 +141,9 @@ http://127.0.0.1:3000/callback?client_state=xyz&oauth_error=...&oauth_error_code
 ```yaml
 openapi: 3.1.0
 info:
-  title: openJiuwen Agentic Hub API
+  title: 沧溟 API
   description: |
-    openJiuwen Agentic Hub 市场原生 API。
+    沧溟 市场原生 API。
     接口分类、环境变量与鉴权说明请参阅本文档「范围说明」章节。
   version: 1.0.0
 servers:

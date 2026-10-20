@@ -91,5 +91,5 @@ MARKET_ALLOW_SELF_MODERATION=true
 
 - [Agent资产](./Agent资产.md)
 - [角色与权限](../4.%20用户指南/角色与权限.md)
-- [openJiuwen Agentic Hub 接口参考](../7.%20API参考/openJiuwen-Agentic-Hub-接口参考.md)
+- [沧溟 接口参考](../7.%20API参考/沧溟-接口参考.md)
 - [环境配置说明](../4.%20用户指南/环境配置说明.md)

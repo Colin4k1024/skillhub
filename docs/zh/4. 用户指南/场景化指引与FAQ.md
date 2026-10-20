@@ -12,7 +12,7 @@
 
 ### 前置条件
 
-- 已登录 openJiuwen Agentic Hub（GitCode 或 GitHub）
+- 已登录 沧溟（GitCode 或 GitHub）
 - 本地 Skill 目录结构正确
 
 ### 推荐目录结构
@@ -206,7 +206,7 @@ Web 发布失败时，响应体含 `detail.error_code`。常见码：
 | `permission_denied` | 无权限 | 确认登录账号或审核员身份 |
 | `http_403` | 鉴权失败 | Token 过期，重新登录 |
 
-完整错误模型见 [openJiuwen Agentic Hub API — 全局错误响应](../7.%20API参考/openJiuwen-Agentic-Hub-OpenAPI.md#全局错误响应)。
+完整错误模型见 [沧溟 API — 全局错误响应](../7.%20API参考/沧溟-OpenAPI.md#全局错误响应)。
 
 ---
 
@@ -225,4 +225,4 @@ Web 发布失败时，响应体含 `detail.error_code`。常见码：
 
 - [快速开始](../2.%20快速开始.md)
 - [角色与权限](./角色与权限.md)
-- [安装指导](../3.%20安装指导/本地安装/openJiuwen-Agentic-Hub安装指导.md)
+- [安装指导](../3.%20安装指导/本地安装/沧溟安装指导.md)
