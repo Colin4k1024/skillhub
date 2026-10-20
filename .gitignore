@@ -62,3 +62,4 @@ docker/k8s/networkpolicy.yaml
 # SDD tools
 .opencode/
 .specify
+.mimosa/
