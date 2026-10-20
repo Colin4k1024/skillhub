@@ -32,7 +32,7 @@ RUN echo "INDEX_URL: ${INDEX_URL}"
 RUN echo "TRUSTED_HOST: ${TRUSTED_HOST} ${TRUSTED_HOST_EXTRA}"
 RUN echo "APT_MIRROR: ${APT_MIRROR:-<unset>}"
 
-# Git 源同步依赖 git CLI（见 docs/Git仓库接入SkillHub设计.md）
+# Git 源同步依赖 git CLI（见 docs/zh/4. 用户指南/Git仓库导入Skill.md）
 RUN if [ -n "${APT_MIRROR}" ]; then \
       for f in /etc/apt/sources.list /etc/apt/sources.list.d/debian.sources; do \
         [ -f "$f" ] && sed -i "s|deb.debian.org|${APT_MIRROR}|g" "$f"; \

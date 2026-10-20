@@ -1,6 +1,6 @@
 # Copyright (c) Huawei Technologies Co., Ltd. 2026. All rights reserved.
 
-"""CLI utils for openjiuwen plugin"""
+"""CLI utils for 沧溟 plugin"""
 
 from __future__ import annotations
 
